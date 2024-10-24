@@ -1,4 +1,3 @@
-Here’s the complete README for **LowkeyLang**, incorporating everything we discussed, including all features and additional sections for clarity:
 
 ```markdown
 # LowkeyLang
@@ -158,4 +157,3 @@ Thanks for checking out LowkeyLang! Have fun coding in a quirky way! If you have
 8. **Acknowledgements**: Appreciation for users.
 9. **Future Features**: Ideas for future improvements.
 
-Feel free to modify any sections further or let me know if there’s anything else you’d like to add!
