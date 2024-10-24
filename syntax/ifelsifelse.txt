@@ -1,0 +1,20 @@
+
+
+this() is true {
+    code 
+}
+
+this o that () is true {
+     code 
+}
+
+that is false{
+    code 
+}
+
+
+
+
+
+
+
