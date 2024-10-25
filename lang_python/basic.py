@@ -1,6 +1,3 @@
-#######################################
-# IMPORTS
-#######################################
 
 from strings_with_arrows import *
 
@@ -8,17 +5,13 @@ import string
 import os
 import math
 
-#######################################
 # CONSTANTS
-#######################################
 
 DIGITS = '0123456789'
 LETTERS = string.ascii_letters
 LETTERS_DIGITS = LETTERS + DIGITS
 
-#######################################
 # ERRORS
-#######################################
 
 class Error:
   def __init__(self, pos_start, pos_end, error_name, details):
@@ -68,9 +61,7 @@ class RTError(Error):
 
     return 'Traceback (blah blah blah ...):\n' + result
 
-#######################################
 # POSITION
-#######################################
 
 class Position:
   def __init__(self, idx, ln, col, fn, ftxt):
@@ -93,9 +84,7 @@ class Position:
   def copy(self):
     return Position(self.idx, self.ln, self.col, self.fn, self.ftxt)
 
-#######################################
 # toKENS
-#######################################
 
 TT_INT				= 'INT'
 TT_FLOAT    	= 'FLOAT'
@@ -140,7 +129,7 @@ KEYWORDS = [
   'gaali',
   'kudu',
   'thodar',
-  'odachuru1',
+  'odachuru',
 ]
 
 class Token:
@@ -163,9 +152,7 @@ class Token:
     if self.value: return f'{self.type}:{self.value}'
     return f'{self.type}'
 
-#######################################
 # LEXER
-#######################################
 
 class Lexer:
   def __init__(self, fn, text):
@@ -360,9 +347,7 @@ class Lexer:
 
     self.advance()
 
-#######################################
 # NODES
-#######################################
 
 class NumberNode:
   def __init__(self, tok):
@@ -503,9 +488,7 @@ class BreakNode:
     self.pos_start = pos_start
     self.pos_end = pos_end
 
-#######################################
 # PARSE RESULT
-#######################################
 
 class ParseResult:
   def __init__(self):
@@ -540,9 +523,7 @@ class ParseResult:
       self.error = error
     return self
 
-#######################################
 # PARSER
-#######################################
 
 class Parser:
   def __init__(self, tokens):

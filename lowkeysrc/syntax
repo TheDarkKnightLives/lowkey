@@ -1,0 +1,42 @@
+the name equals 10
+the name equals "loki"
+the name equals true 
+
+// done until storing variables in a dictionary
+
+//if the name is repeated in another assign then we can see it get replaced 
+
+-------------------------------------------------------------------
+
+making operation 
+
+the name equals 2 plus 3
+the name equals 2 into 3 
+the name equals 2 minus 3 
+the name equals 2 div 3 
+the name equals 2 remainder 3 
+
+
+the name incr  
+the name decr  
+
+-------------------------------------------------------------------
+
+say and ask 
+
+-------------------------------------------------------------------
+
+
+-SAY -
+
+
+say is to tell and ask is to get 
+
+if there is a variable called "hello"
+
+say "hello" name roll haha hehe 
+
+will print the variable with considering the others as a string
+
+
+-ASK-
