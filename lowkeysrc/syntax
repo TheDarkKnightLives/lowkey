@@ -1,6 +1,6 @@
-the name equals 10
-the name equals "loki"
-the name equals true 
+the name is 10
+the name is "loki"
+the name is true 
 
 // done until storing variables in a dictionary
 
@@ -10,15 +10,29 @@ the name equals true
 
 making operation 
 
-the name equals 2 plus 3
-the name equals 2 into 3 
-the name equals 2 minus 3 
-the name equals 2 div 3 
-the name equals 2 remainder 3 
+i)
+the name equals var plus 10 -> this shit works 
+
+ii)
+the name equals var plus var -> this shit works  
+
+iii) 
+the name equals 10 plus 10 
 
 
-the name incr  
-the name decr  
+
+
+
+the operators are 
+
+plus , minus , into , div , remainder 
+
+
+
+
+
+the name incr -> not done   
+the name decr -> not done 
 
 -------------------------------------------------------------------
 
@@ -41,8 +55,38 @@ will print the variable with considering the others as a string
 
 -ASK-
 
+ask name int 
+ask name str 
+ask name bool 
+    
 
-not yet done yet ... 
+
+
+
+------------------------------------------------------------------------
+if (single line )
+
+line breaker being "do"    
+
+using varornot "von " variable to determinee the number of variables in the conditon (actually inside the variable dictionary )
+
+if var1 greater or equal to var3 do 
+    
+     
+
+thasall (this is the last line for the if condition ) 
+    
+
+
+
+
+
+    lesser or equal to 
+        lesser than 
+        greater than 
+        equal to 
+        
+the \nextline represents adutha line ... 
 
 
 -------------------------------------------------------------------------

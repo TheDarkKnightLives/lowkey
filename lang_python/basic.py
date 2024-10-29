@@ -141,7 +141,6 @@ class Token:
       self.pos_start = pos_start.copy()
       self.pos_end = pos_start.copy()
       self.pos_end.advance()
-
     if pos_end:
       self.pos_end = pos_end.copy()
 
