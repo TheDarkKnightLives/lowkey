@@ -308,8 +308,25 @@ class LowKey:
 
                 
                 if result:
-                    print("the given condition is true ...")
-                    print("continuing the statements ...")
+                    line = LowKey()
+                    while True:
+                        sentence = input(">>>>")
+        # Create an instance of LowKey with the list of words
+        # Call the method to display the words
+                        try:
+                            line.sentence  = sentence
+                            line.words = sentence.split()
+                            line.tokens()
+
+                            if sentence == "thasall":
+                                print("end of the condition detected ...")
+                                break
+                        except Exception as e :
+                            print("some compiler based error occured ... ")
+                            print(e)
+                            pass
+
+
 
                 else:
                     print("the given condition is false ...")
